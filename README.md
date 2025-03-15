@@ -2,6 +2,7 @@
 
 Task No-1
 
+
 Steps to Go For Task-
  Plan for Fine-Tuning LLaMA/Mixtral on Financial Data
 Step 1: Fetch Public Datasets (Downloading and preprocessing)
@@ -33,6 +34,25 @@ Save the fine-tuned model for deployment
 
 StreamLit -Model deployment for UI
 
+(Given the extensive scope and the focus on integrating multiple LLMs for financial data processing, I’ve realized that completing the entire system within the 36-hour time frame would be challenging. Therefore, I’ve taken the approach of focusing specifically on fine-tuning LLaMA/Mixtral models for financial data analysis to achieve substantial progress.
+
+Steps I've taken so far:
+Data Fetching and Preprocessing:
+I have fetched public datasets relevant to financial data (e.g., stock prices, market news, regulatory filings) and am currently preprocessing these datasets for model training.
+
+Fine-Tuning Script Setup:
+The fine-tuning script has been successfully set up using Hugging Face and QLoRA, designed to efficiently fine-tune LLaMA and Mixtral models for the specific needs of financial data.
+
+Model Training:
+I have initiated the fine-tuning process using Colab/Kaggle, focusing on optimizing CPU performance for better model efficiency.
+
+Export & Deployment Plan:
+Once the fine-tuning is completed, I plan to export the fine-tuned model and deploy it through Streamlit UI, which will allow for real-time inference and interaction with the data.
+
+Next Steps:
+Model Evaluation: Post-training, I will test the model's performance on tasks like sentiment analysis, fraud detection, and financial trend prediction to ensure accuracy.
+Deployment: The model will be deployed on a cloud platform for high availability and scalability.
+System Integration: Following deployment, I will work on integrating this model into a larger financial AI infrastructure for low-latency execution and risk prediction.)
 
 
 
